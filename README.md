@@ -79,7 +79,7 @@
 - 📩 **Personal Email**: so_young2004_@naver.com  
 - 🎓 **School Email**: thdud041113@g.skku.edu  
 - 🌐 [GitHub Profile](https://github.com/yunsoyoung2004)
-
+- **hugging face** : https://huggingface.co/youngbongbong
 ---
 
 <p align="center">
