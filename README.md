@@ -80,6 +80,8 @@
 - 🎓 **School Email**: thdud041113@g.skku.edu  
 - 🌐 [GitHub Profile](https://github.com/yunsoyoung2004)
 - **hugging face** : https://huggingface.co/youngbongbong
+- **linkedin** : www.linkedin.com/in/ysobong504496283
+
 ---
 
 <p align="center">
