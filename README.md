@@ -13,50 +13,70 @@
 
 ## 🧠 About Me
 
-> 안녕하세요! 성균관대학교에서 인공지능 소프트웨어를 전공하는 윤소영입니다.
-> 진행 중인 프로젝트는 urp-교내인턴, 대회 및 공모전, 인턴 ..이 있습니다..;_;
-> 무엇인가 우당탕탕 진행중이라,, 정리되면 다시 푸시하도록 하죠..=_=
+안녕하세요! 성균관대학교에서 **AI 소프트웨어**를 전공 중인 **윤소영**입니다.  
+**사용자 친화형 AI 서비스**와 **대화형 시스템**에 관심이 많으며,  
+실제 문제를 해결하는 챗봇과 영상 기반 인식 시스템을 중심으로 프로젝트를 수행하고 있습니다.
 
 ---
 
 ## 🚀 Major Projects
 
-### 📌 1. Stage-aware CBT Chatbot System  
-> 다단계 인지행동치료 대화 흐름을 구성하는 **TTM 기반 챗봇**.  
-> 대화 단계별로 **LLM을 자동 전환**하고, **Drift Detection**을 적용하여  
-> 사용자 반응에 따른 동기·인지·실천 단계를 유연하게 전이시킵니다.
+### 📌 1. TTM Chatbot System – 다단계 인지행동치료 챗봇
 
-- **주요 기술**: Hugging Face Transformers, FastAPI, LLaMA, Drift Detection, Pydantic, Socratic Q
-- **특징**: 멀티에이전트 구조, 단계 기반 자연어 흐름 제어, 실시간 전이 감지
+> 사용자의 변화 단계에 따라 **Empathy → MI → CBT1~CBT3**를 유연하게 전이하는  
+> **멀티에이전트 기반 TTM 챗봇 시스템**입니다.
+
+- **Drift Detection**을 통해 대화 맥락 변화 자동 감지
+- **FastAPI + Hugging Face + LLaMA**로 백엔드 구성
+- **Flutter**를 활용한 클라이언트 앱 개발
+
+🔗 [TTMchatbot](https://github.com/yunsoyoung2004/TTMchatbot)  
+🔗 [flutterttm](https://github.com/yunsoyoung2004/flutterttm)  
+🔗 [TTMonly](https://github.com/yunsoyoung2004/TTMonly)
 
 ---
 
-### 📌 2. PedestrianAI: Real-Time Risk Prediction  
-> **YOLOv8 기반 객체 탐지** + **시계열 위험 예측** 시스템.  
-> 도로 영상에서 차량과 보행자를 인식하고, **GNN과 Transformer 기반 모델**로  
-> 실시간 충돌 위험도를 산출하여 교통약자를 위한 사전 안전 대응이 가능하게 합니다.
+### 📌 2. School-Zone Safety Infrastructure Auto-Diagnosis
 
-- **주요 기술**: YOLOv8, GNN, Transformer, FastAPI, Google Cloud Run
-- **특징**: 구글 스트리트뷰 이미지 + 실시간 CCTV 대응, 위험도 시각화 및 예측 알림
+> **어린이 보호구역 내 시설물 설치 여부 및 노후 상태를 자동 진단**하는  
+> 객체 인식 기반 모니터링 시스템입니다.
+
+- **YOLOv8**을 활용한 표지판/방지턱/안전표시 등 인식
+- AI Hub 및 StreetView API 활용, **CCTV 실시간 대응**
+- **FastAPI 기반 진단 API + 대시보드 시각화**
+
+🔗 [School-Zone-Safety-Infrastructure-Auto-Diagnosis-System](https://github.com/yunsoyoung2004/School-Zone-Safety-Infrastructure-Auto-Diagnosis-System)
+
+---
+
+### 📌 3. API WebApp – 고전문헌 기반 간단 웹 서비스
+
+> 한국고전종합DB의 김정중 연행록 API를 활용한  
+> **단순 검색 및 출력 웹 앱**입니다.
+
+- JavaScript로 구현한 간단한 API 웹앱
+- 콘텐츠 기반 문헌 검색 테스트용 구조
+
+🔗 [apiwebapp](https://github.com/yunsoyoung2004/apiwebapp)
 
 ---
 
 ## 🛠 Tech Stack
 
 ### 💻 Languages
-- `Python`, `Dart`, `JavaScript`, `SQL`
+`Python`, `JavaScript`, `Dart`, `SQL`
 
-### 🧠 AI / ML Frameworks
-- `Hugging Face Transformers`, `PyTorch`, `YOLOv8`, `scikit-learn`, `GNN`, `LSTM`, `Time-Series`
+### 🧠 AI & ML
+`Transformers`, `YOLOv8`, `GNN`, `LSTM`, `Drift Detection`, `Time-Series Analysis`
 
-### 🌐 Web & Backend
-- `FastAPI`, `Firebase`, `REST API`, `Pydantic`, `Google Cloud Platform`
+### 🌐 Web / Backend
+`FastAPI`, `Firebase`, `REST API`, `Google Cloud Run`, `Pydantic`
 
-### 🎨 Frontend & Design
-- `Flutter`, `HTML/CSS`, `Figma`, `Notion`
+### 🎨 Frontend / Design
+`Flutter`, `HTML/CSS`, `Figma`, `Notion`
 
-### ⚙️ Tools & DevOps
-- `Docker`, `GitHub Actions`, `VS Code`, `Google Cloud Run`
+### 🧰 Tools & Infra
+`Docker`, `GitHub Actions`, `VS Code`, `Cloud Platform`
 
 ---
 
@@ -69,13 +89,27 @@
 
 ---
 
+## 🗂️ 연습용 저장소
+
+> 아래 저장소들은 학습용 실습 및 실험 목적으로 사용한 연습 저장소입니다.
+
+- [langchain_practice](https://github.com/yunsoyoung2004/langchain_practice)  
+  : LangChain & LangGraph 기반 LLM 에이전트 실습 노트북
+
+- [Bllossom_practice](https://github.com/yunsoyoung2004/Bllossom_practice)  
+  : Blossom-8B 한국어 모델 기반 파인튜닝 실습
+
+- [urplangchain-langagent](https://github.com/yunsoyoung2004/urplangchain-langagent)  
+  : LlamaIndex, CrewAI, LangGraph 등 다양한 LLM 프레임워크 실습
+
+---
+
 ## 📫 Contact
 
-- 📩 **Personal Email**: so_young2004_@naver.com  
-- 🎓 **School Email**: thdud041113@g.skku.edu  
-- 🌐 [GitHub Profile](https://github.com/yunsoyoung2004)
-- **hugging face** : https://huggingface.co/youngbongbong
-- **linkedin** : www.linkedin.com/in/ysobong504496283
+- 📩 **Email**: so_young2004_@naver.com / thdud041113@g.skku.edu  
+- 🌐 [GitHub](https://github.com/yunsoyoung2004)  
+- 🤗 [Hugging Face](https://huggingface.co/youngbongbong)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ysobong504496283)
 
 ---
 
