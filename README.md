@@ -14,21 +14,25 @@
 ## 🧠 About Me
 
 안녕하세요! 성균관대학교에서 **AI 소프트웨어**를 전공 중인 **윤소영**입니다.  
-**사용자 친화형 AI 서비스**와 **대화형 시스템**에 관심이 많으며,  
-실제 문제를 해결하는 챗봇과 영상 기반 인식 시스템을 중심으로 프로젝트를 수행하고 있습니다.
+**LLM 기반 챗봇 시스템**, **AI 시각 인식**, **프롬프트 엔지니어링**에 관심을 갖고  
+실제 문제 해결형 프로젝트를 중심으로 다양한 연구와 개발을 진행하고 있습니다.
+
+현재는 **심리상담 챗봇 시스템 연구**, **오픈소스 소프트웨어 공모전 출전**,  
+그리고 **AI 기반 교통위험 예측 인턴십**에 참여 중입니다.
 
 ---
 
 ## 🚀 Major Projects
 
-### 📌 1. TTM Chatbot System – 다단계 인지행동치료 챗봇
+### 📌 1. TTM Chatbot System – 다단계 인지행동치료 챗봇  
+> 🔍 **URP 교내 연구 인턴십 (2024 상반기)**
 
-> 사용자의 변화 단계에 따라 **Empathy → MI → CBT1~CBT3**를 유연하게 전이하는  
-> **멀티에이전트 기반 TTM 챗봇 시스템**입니다.
+> Transtheoretical Model(TTM)에 기반하여 사용자의 변화 단계를 감지하고  
+> **Empathy → MI → CBT1~CBT3**를 자동 전이하는 멀티에이전트 챗봇 시스템.
 
-- **Drift Detection**을 통해 대화 맥락 변화 자동 감지
-- **FastAPI + Hugging Face + LLaMA**로 백엔드 구성
-- **Flutter**를 활용한 클라이언트 앱 개발
+- Drift Detection을 통해 대화 흐름의 이상 감지 및 전이
+- 단계별 LLM 모델 분기 및 Socratic 질문 흐름 설계
+- Flutter 기반 사용자 인터페이스 구현
 
 🔗 [TTMchatbot](https://github.com/yunsoyoung2004/TTMchatbot)  
 🔗 [flutterttm](https://github.com/yunsoyoung2004/flutterttm)  
@@ -36,47 +40,61 @@
 
 ---
 
-### 📌 2. School-Zone Safety Infrastructure Auto-Diagnosis
+### 📌 2. School-Zone Safety Auto-Diagnosis System  
+> 🏅 **2024 오픈소스 소프트웨어 개발자 대회 출품작**
 
-> **어린이 보호구역 내 시설물 설치 여부 및 노후 상태를 자동 진단**하는  
-> 객체 인식 기반 모니터링 시스템입니다.
+> 어린이 보호구역 내 교통안전시설물의 **설치 여부 및 노후 상태를 자동 진단**하는  
+> 객체 인식 기반 인공지능 시스템.
 
-- **YOLOv8**을 활용한 표지판/방지턱/안전표시 등 인식
-- AI Hub 및 StreetView API 활용, **CCTV 실시간 대응**
-- **FastAPI 기반 진단 API + 대시보드 시각화**
+- YOLOv8 기반 표지판/방지턱/노면 표시 탐지
+- CCTV 및 StreetView API 연계로 실시간 분석 지원
+- 대시보드와 연동되는 자동 진단 API 구성
 
 🔗 [School-Zone-Safety-Infrastructure-Auto-Diagnosis-System](https://github.com/yunsoyoung2004/School-Zone-Safety-Infrastructure-Auto-Diagnosis-System)
 
 ---
 
-### 📌 3. API WebApp – 고전문헌 기반 간단 웹 서비스
+### 📌 3. Real-Time Risk Prediction System for Pedestrians  
+> 🤝 **산학협력 인턴십 (AI Vision Lab, 2024 하계)**
 
-> 한국고전종합DB의 김정중 연행록 API를 활용한  
-> **단순 검색 및 출력 웹 앱**입니다.
+> CCTV 영상 기반 객체 인식과 GNN/Transformer 계열 예측 모델을 활용하여  
+> **보행자 교통사고 위험도를 실시간 산출**하는 시스템.
 
-- JavaScript로 구현한 간단한 API 웹앱
-- 콘텐츠 기반 문헌 검색 테스트용 구조
+- YOLOv8을 통한 차량/보행자 탐지
+- 시계열 기반 위험도 예측 모델 구성
+- **백엔드 프롬프트 엔지니어링 및 API 아키텍처 설계 담당**
 
-🔗 [apiwebapp](https://github.com/yunsoyoung2004/apiwebapp)
+※ 비공개 협력 프로젝트로 상세 코드는 공개되지 않음.
 
 ---
 
-## 🛠 Tech Stack
+## 💼 Internship Experience
 
-### 💻 Languages
-`Python`, `JavaScript`, `Dart`, `SQL`
+### 🔹 URP 교내 연구 인턴 (2024.03 – 2024.08)  
+> 단계 기반 챗봇 흐름 설계 및 Socratic 질문 구조 구현  
+> FastAPI + Drift Detection 중심의 백엔드 구조 실험
 
-### 🧠 AI & ML
-`Transformers`, `YOLOv8`, `GNN`, `LSTM`, `Drift Detection`, `Time-Series Analysis`
+### 🔹 산학협력 인턴십 @ AI Vision Lab (2024.07 – 진행 중)  
+> 실시간 교통 위험도 예측 시스템 개발 참여  
+> YOLO 및 Transformer 계열 모델 기반 API 프롬프트 설계 및 테스트 진행 중
 
-### 🌐 Web / Backend
-`FastAPI`, `Firebase`, `REST API`, `Google Cloud Run`, `Pydantic`
+---
 
-### 🎨 Frontend / Design
-`Flutter`, `HTML/CSS`, `Figma`, `Notion`
+## 🗂️ 연습용 저장소
 
-### 🧰 Tools & Infra
-`Docker`, `GitHub Actions`, `VS Code`, `Cloud Platform`
+> 학습용 실습 및 구조 실험을 위한 저장소들입니다.
+
+- [langchain_practice](https://github.com/yunsoyoung2004/langchain_practice)  
+  : LangChain & LangGraph 기반 프롬프트 체인 및 에이전트 구조 실습
+
+- [Bllossom_practice](https://github.com/yunsoyoung2004/Bllossom_practice)  
+  : Blossom-8B 기반 한국어 LLM 파인튜닝 실습 및 inference 구조 실험
+
+- [urplangchain-langagent](https://github.com/yunsoyoung2004/urplangchain-langagent)  
+  : CrewAI, LangGraph, LlamaIndex 등을 활용한 LLM 에이전트 구조 실험
+
+- [apiwebapp](https://github.com/yunsoyoung2004/apiwebapp)  
+  : 고전문헌(연행록) API 연동 연습용 웹앱 / 공공 API 출력 실습
 
 ---
 
@@ -86,21 +104,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=yunsoyoung2004&show_icons=true&theme=radical" width="47%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yunsoyoung2004&layout=compact&theme=radical" width="45%" />
 </p>
-
----
-
-## 🗂️ 연습용 저장소
-
-> 아래 저장소들은 학습용 실습 및 실험 목적으로 사용한 연습 저장소입니다.
-
-- [langchain_practice](https://github.com/yunsoyoung2004/langchain_practice)  
-  : LangChain & LangGraph 기반 LLM 에이전트 실습 노트북
-
-- [Bllossom_practice](https://github.com/yunsoyoung2004/Bllossom_practice)  
-  : Blossom-8B 한국어 모델 기반 파인튜닝 실습
-
-- [urplangchain-langagent](https://github.com/yunsoyoung2004/urplangchain-langagent)  
-  : LlamaIndex, CrewAI, LangGraph 등 다양한 LLM 프레임워크 실습
 
 ---
 
