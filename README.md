@@ -1,63 +1,169 @@
+ㄹ<!-- HEADER: Aurora Gradient -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=230&section=header&text=Welcome%20to%20SoYoung's%20Space%20🚀&fontAlign=50&fontSize=40&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&section=header&text=SoYoung%20Yun%20%7C%20AI%20Engineer%20✨&fontSize=40&fontAlign=50&animation=fadeIn" />
 </p>
 
+<!-- Typing Intro -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Sungkyunkwan%20University-006400?style=for-the-badge&logo=academia&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20Engineer-HuggingFace-6A5ACD?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Web%20Dev-FastAPI%20×%20Flutter-00c2ff?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/UI%2FUX%20Design-Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=24&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=600&lines=AI+%26+HCI+Researcher;Multi-Agent+Systems+%26+Clinical+Chatbots;RAG+%7C+FastAPI+%7C+Flutter+Developer" />
 </p>
 
 ---
 
-## 🧠 About Me
-
-안녕하세요! 성균관대학교에서 **AI 소프트웨어**를 전공 중인 **윤소영**입니다.  
-실제 문제 해결형 프로젝트를 중심으로 다양한 연구와 개발을 진행하고 있습니다.
-
-현재는 **심리상담 챗봇 시스템 연구**에 몰입 중입니다!
+# 🌐 Homepage
+- GitHub: **https://github.com/yunsoyoung2004**  
+- HuggingFace: **https://huggingface.co/youngbongbong**
 
 ---
 
-## 🚀 Major Projects
-
-### 📌 1. TTM Chatbot System – 다단계 인지행동치료 챗봇  
-> 🔍 **URP 교내 연구 인턴십 (2024 상반기)**
-
-> Transtheoretical Model(TTM)에 기반하여 사용자의 변화 단계를 감지하고  
-> **Empathy → MI → CBT1~CBT3**를 자동 전이하는 멀티에이전트 챗봇 시스템.
-
-- Drift Detection을 통해 대화 흐름의 이상 감지 및 전이
-- 단계별 LLM 모델 분기 및 Socratic 질문 흐름 설계
-- Flutter 기반 사용자 인터페이스 구현
-
-🔗 [TTMchatbot](https://github.com/yunsoyoung2004/TTMchatbot)  
-🔗 [flutterttm](https://github.com/yunsoyoung2004/flutterttm)  
-🔗 [TTMonly](https://github.com/yunsoyoung2004/TTMonly)
-
+# 🎓 GPA
+> **전공 학점: 4.2 / 4.5**
 
 ---
 
-### 📌 2. Real-Time Risk Prediction System for Pedestrians  
-> 🤝 **산학협력 인턴십 (Step-How, 2024 하계)**
+# 📞 Contact
+- 📱 010-8635-3984  
+- 📧 thdud041113@g.skku.edu  
+- 📧 so_young2004_@naver.com  
+- 📍 서울시 종로구 혜화동  
 
-- **백엔드 프롬프트 엔지니어링 및 API 아키텍처 설계 담당**
+---
 
-※ 비공개 협력 프로젝트로 상세 코드는 공개되지 않음.
+# 💼 업무 경력 (Experience)
+
+## 🔹 Lambda Lab 인턴 (2025.03 ~ 현재)
+- URP 2형 *2회*, URP 1형 *2회*  
+- 팀 연구 참여 및 AI·HCI 기반 프로젝트 수행  
+🔗 https://sites.google.com/site/hyoh79/members
 
 ---
 
-## 💼 Internship Experience
-
-### 🔹 URP 교내 연구 인턴 (2025.03 – 진행 중)  
-> 단계 기반 챗봇 흐름 설계 및 Socratic 질문 구조 구현  
-> FastAPI + Drift Detection 중심의 백엔드 구조 실험
-
-### 🔹 산학협력 인턴십 (2025.06 – 2025-.08)  
-> 백엔드 프롬프트 엔지니어링 및 API 아키텍처 설계 담당
+## 🔹 스텝하우 하계 인턴 (2025.06 ~ 2025.08)
+**스택:** AWS(EC2/S3), Claude FT, VectorDB, Python, Docker  
+**역할:**  
+- RAG 구조 설계 및 성능 실험  
+- Claude LoRA 파인튜닝  
+- Embedding + Vector 검색 파이프라인 구축  
+- 챗봇 응답 품질 개선 연구  
 
 ---
+
+## 🔹 멋쟁이사자처럼(LikeLion) 11기 (2023)
+**스택:** React, JavaScript, HTML/CSS, Figma  
+**역할:** 웹 프론트 UI 개발, 팀 프로젝트(Farewell) 구현, 코드리뷰/UX 작업 지원  
+
+---
+
+# 🎓 학력 (Education)
+## 성균관대학교 인공지능융합학부 (2023.03 ~ 2026.03)
+전공: 딥러닝, NLP, HCI, AI윤리, ML, 데이터마이닝 등  
+- API 기반 프로그래밍  
+- HuggingFace 파인튜닝  
+- Multi-Agent 기반 AI 설계  
+- 사용자 중심 대화형 AI 실험(HCI 기반)
+
+---
+
+# 🛠️ 기술 스택 (Tech Stack)
+
+## **Frontend**
+- Flutter (Dart)  
+- JavaScript  
+- React.js  
+
+## **Backend**
+- FastAPI  
+- Node.js  
+
+## **Server / DevOps**
+- Docker  
+- Firebase (Auth/Firestore/Hosting)  
+- AWS (EC2, S3, Lambda)
+
+## **Design / Collaboration**
+- Figma  
+- Notion  
+- Slack  
+
+## **AI Engineering**
+- NumPy  
+- Fine-tuning (HuggingFace / ClovaX / GPT API)  
+- Prompt engineering  
+
+## **SDK / Tools**
+- Android emulator  
+- Visual Studio
+
+## **os**
+- window
+
+## **기타**
+- 풀스택 애플리케이션 개발  
+- 데이터 전처리 및 파인튜닝 연구
+
+---
+
+# 🧪 진행 중 연구 (Current Research)
+
+## 🔵 **PLOS One 리비전 (2025)**
+**Title:** *Leveraging DSM-5 for Advanced Depression Detection*  
+- Python, HuggingFace, 멀티모달 분류  
+- 음성 Feature 추출 + 텍스트 통합  
+- DSM-5 기반 자동 분류 실험 설계  
+
+---
+
+## 🟣 **KICS 논문 작성 (2025)**
+**Title:** *RAG + Context Modeling 기반 단계 준수 멀티에이전트 CBT 프레임워크*  
+- FastAPI, RAG, Multi-Agent, Embedding Model  
+- 단계 준수형 CBT 구조 설계  
+- 알고리즘/흐름도 작성
+
+---
+
+## 🟡 **지적재산권(특허) — 2025.11~**
+1. **TTM 기반 단계 추적 + Drift Reset 멀티에이전트 AI 상담 시스템**  
+2. **RAG+Context 기반 단계 준수형 CBT 상담 시스템**  
+3. **말기 환자 정서 케어 및 의사결정 지원 멀티에이전트 시스템**
+
+---
+
+## 💚 **Elsevier ESWA 저널 — 등록 진행**
+**Title:** *Eirene: Multi-Agent Conversational AI for End-of-Life Decision Support*  
+- LLM Persona Drift 분석  
+- HCI 측정 프레임워크 설계  
+- EoL Care 챗봇 구조 제시  
+
+---
+
+# 🧩 진행 완료 연구 (Completed Research)
+
+## 💙 KOCCA 국가과제 – Mindrium DTx (2025.11~)
+- Flutter + GPT API  
+- RAG 상담 모듈  
+- Anxiety Gauge Bar / ABC 모델 UI  
+- UX/HCI 기반 치료 플로우 구축  
+
+---
+
+## 💗 UbiComp Workshop (2025)
+**Persona Drift Detection in Therapeutic Chatbots**  
+- Socratic Dialogue 기반 drift 분석  
+- TTM 단계별 대응 모델 구축  
+- 치료적 정밀화 전략 제시  
+
+---
+
+## 🧡 멋쟁이사자처럼 대학 연합 해커톤 (2024)
+- React + JS  
+- 서비스 UI 개발  
+- 회고 웹 서비스 구현
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer" />
+</p>
+
 
 ## 🗂️ 연습용 저장소
 
