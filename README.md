@@ -14,7 +14,6 @@
 ---
 
 # 연락처
----
 📧 thdud041113@g.skku.edu  
 📧 so_young2004_@naver.com  
 
